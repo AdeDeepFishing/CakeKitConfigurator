@@ -35,3 +35,9 @@ npm install
 
 # 3. Run the dev server
 npm run dev
+```
+
+## 🙏 Acknowledgements
+
+This project is adapted from [afilahkle/3D-Clothing-Configurator](https://github.com/afilahkle/3D-Clothing-Configurator).  
+Big thanks for the original work and inspiration!

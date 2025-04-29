@@ -15,6 +15,15 @@ A playful cycling jersey configurator built with Vite, React, and react-three/fi
 
 This prototype demonstrates a potential user journey for Cake’s **bespoke team kit ordering process**. It offers a low-barrier, fun interaction to increase engagement and reduce hesitation before contacting the team.
 
+## 🎥 Demo Preview
+
+Here’s a quick look at the prototype in action:
+
+<img src="./public/3dclothinggif1.gif" width="400" />
+<img src="./public/3dclothinggif2.gif" width="400" />
+<img src="./public/3dclothinggif3.gif" width="400" />
+<img src="./public/3dclothinggif4.gif" width="400" />
+
 ## 🚀 Getting Started
 
 ```bash

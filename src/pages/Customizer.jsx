@@ -18,9 +18,9 @@ const Customizer = () => {
   const [activeEditorTab, setActiveEditorTab] = useState("");
   const [activeFilterTab, setActiveFilterTab] = useState({
     frontLogoShirt: true,
-    backLogoShirt: true,
+    // backLogoShirt: true,
     frontTextShirt: true,
-    backTextShirt: true,
+    // backTextShirt: true,
     stylishShirt: false,
   })
 
@@ -59,10 +59,11 @@ const Customizer = () => {
     } else if (textureLogo.type === "frontLogo") {
       // update the state with the selected logo
       state.frontLogoDecal = textureLogo.image;
-    } else if (textureLogo.type === "backLogo") {
-      // update the state with the selected logo
-      state.backLogoDecal = textureLogo.image
-    }
+    } 
+    // else if (textureLogo.type === "backLogo") {
+    //   // update the state with the selected logo
+    //   state.backLogoDecal = textureLogo.image
+    // }
   };
   
 
@@ -81,15 +82,15 @@ const Customizer = () => {
       case "frontLogoShirt":
           state.isFrontLogoTexture = !activeFilterTab[tabName];
         break;
-      case "backLogoShirt":
-          state.isBackLogoTexture = !activeFilterTab[tabName];
-        break;
+      // case "backLogoShirt":
+      //     state.isBackLogoTexture = !activeFilterTab[tabName];
+      //   break;
       case "frontTextShirt":
           state.isFrontText = !activeFilterTab[tabName];
         break;
-      case "backTextShirt":
-          state.isBackText = !activeFilterTab[tabName];
-        break;
+      // case "backTextShirt":
+      //     state.isBackText = !activeFilterTab[tabName];
+      //   break;
       case "stylishShirt":
           state.isFullTexture = !activeFilterTab[tabName];
         break;
@@ -98,9 +99,9 @@ const Customizer = () => {
         break;
       default:
         state.isFrontLogoTexture = true;
-        state.isBackLogoTexture = true;
+        // state.isBackLogoTexture = true;
         state.isFrontText = true;
-        state.isBackText = true;
+        // state.isBackText = true;
         state.isFullTexture = false;
         break;
     }

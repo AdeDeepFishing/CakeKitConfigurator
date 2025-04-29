@@ -13,7 +13,7 @@ const Shirt = () => {
 
   const logoTexture = useTexture(snap.frontLogoDecal);
   const fullTexture = useTexture(snap.fullDecal);
-  const backLogoTexture = useTexture(snap.backLogoDecal);
+  // const backLogoTexture = useTexture(snap.backLogoDecal);
 
   useFrame((state, delta) => easing.dampC(materials.lambert1.color, snap.color, 0.25, delta));
 
@@ -74,7 +74,7 @@ const Shirt = () => {
           />
           )}
 
-          {snap.isBackLogoTexture && (
+          {/* {snap.isBackLogoTexture && (
             <Decal
               position={snap.backLogoPosition}
               rotation={snap.backLogoRotation}
@@ -84,15 +84,15 @@ const Shirt = () => {
               depthTest={false}
               depthWrite={true}
             />
-          )}
-          {snap.isBackText && (
+          )} */}
+          {/* {snap.isBackText && (
             <Decal
               position={snap.backTextPosition}
               rotation={snap.backTextRotation}
               scale={snap.backTextScale}
               map={createTextTexture(snap.backText, snap.backTextFont, snap.backTextSize, snap.backTextColor)}
             />
-          )}
+          )} */}
         </mesh>
       </group>
     </>

@@ -28,18 +28,18 @@ export const FilterTabs = [
     name: "frontLogoShirt",
     icon: logoShirt,
   },
-  {
-    name: "backLogoShirt",
-    icon: logoShirt,
-  },
+  // {
+  //   name: "backLogoShirt",
+  //   icon: logoShirt,
+  // },
   {
     name: "frontTextShirt",
     icon: textIcon,
   },
-  {
-    name: "backTextShirt",
-    icon: textIcon,
-  },
+  // {
+  //   name: "backTextShirt",
+  //   icon: textIcon,
+  // },
   {
     name: "stylishShirt",
     icon: stylishShirt,
@@ -55,10 +55,10 @@ export const DecalTypes = {
     stateProperty: "frontLogoDecal",
     filterTab: "logoShirt",
   },
-  backLogo: {
-    stateProperty: "backLogoDecal",
-    filterTab: "logoShirt",
-  },
+  // backLogo: {
+  //   stateProperty: "backLogoDecal",
+  //   filterTab: "logoShirt",
+  // },
   full: {
     stateProperty: "fullDecal",
     filterTab: "stylishShirt",
@@ -101,14 +101,14 @@ export const texturesLogos = [
     image: logo2,
     type: "frontLogo",
   },
-  {
-    name: "Back Logo 1",
-    image: logo1,
-    type: "backLogo",
-  },
-  {
-    name: "Back Logo 2",
-    image: logo2,
-    type: "backLogo",
-  },
+  // {
+  //   name: "Back Logo 1",
+  //   image: logo1,
+  //   type: "backLogo",
+  // },
+  // {
+  //   name: "Back Logo 2",
+  //   image: logo2,
+  //   type: "backLogo",
+  // },
 ];

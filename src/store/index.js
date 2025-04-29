@@ -34,4 +34,5 @@ const state = proxy({
   backTextColor: 'white',
 });
 
+
 export default state;

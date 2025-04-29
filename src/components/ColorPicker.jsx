@@ -14,6 +14,21 @@ const ColorPicker = () => {
         disableAlpha
         onChange={(color) => state.color = color.hex}
       />
+      {/* New Input Box for Team Name */}
+      <input
+        type="text"
+        value={snap.frontText}
+        onChange={(e) => (state.frontText = e.target.value)}
+        placeholder="Enter your Team Name"
+        style={{
+          marginTop: '1rem',
+          padding: '0.5rem',
+          borderRadius: '5px',
+          border: '1px solid #ccc',
+          fontSize: '1rem',
+          width: '80%',
+        }}
+      />
     </div>
   )
 }
